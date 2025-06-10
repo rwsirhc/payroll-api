@@ -1,9 +1,8 @@
 package provider
 
 import (
-	"database/sql"
-	"github.com/yourusername/gofiber-api/config"
-	"github.com/yourusername/gofiber-api/models"
+	config "github.com/rwsirhc/payroll-api/config"
+	models "github.com/rwsirhc/payroll-api/models/user"
 )
 
 func GetAllUsers() ([]models.User, error) {

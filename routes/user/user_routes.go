@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/rwsirhc/gofiber-api/handlers"
+	handlers "github.com/rwsirhc/payroll-api/handlers/user"
 )
 
 func RegisterUserRoutes(app *fiber.App) {

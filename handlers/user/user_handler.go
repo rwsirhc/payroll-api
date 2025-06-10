@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/yourusername/gofiber-api/models"
-	"github.com/yourusername/gofiber-api/service"
+	models "github.com/rwsirhc/payroll-api/models/user"
+	service "github.com/rwsirhc/payroll-api/services/user"
 )
 
 func GetUsers(c *fiber.Ctx) error {
